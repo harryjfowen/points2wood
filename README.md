@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # xxx
 
 xxx
@@ -35,3 +36,7 @@ pip install --no-index torch-scatter -f ${URL}-${VERSION}+${CUDA}.html
 pip install torch-cluster -f ${URL}-${VERSION}+${CUDA}.html
 pip install torch-sparse -f ${URL}-${VERSION}+${CUDA}.html
 pip install torch-geometric
+=======
+# points2wood
+Semantic segmentation of wood and leaf in high resolution TLS point clouds
+>>>>>>> origin/main
