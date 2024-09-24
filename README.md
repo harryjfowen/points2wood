@@ -22,9 +22,9 @@ https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
 conda activate myenv (myenv being the environemnt name you created above)
 
-cd ~/points2wood/ 
+cd ~/points2wood/points2wood/ 
 
-python3 predict.py --point-cloud ~/Desktop/point_cloud.ply --model f1-eu.pth --batch_size 4 --is-wood 0.55 --grid_size 2.0 --min_pts 512 --max_pts 16384
+python3 predict.py --point-cloud /x/x/cloud.ply --model f1-eu.pth --batch_size 10 --is-wood 0.55 --grid_size 2.0 4.0 --min_pts 2048 --max_pts 16384;
 
 *NOTE Make sure the point cloud contains columns x y z as a minimum and  x y z reflectance if available to you. 
 
